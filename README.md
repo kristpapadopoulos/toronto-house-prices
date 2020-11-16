@@ -9,12 +9,11 @@ To scrap the pdfs from TREB website:
 - run utils/extract_housing_price.py
 
 To extract home price data from pdfs:
-- run utils/convert_housing_pdf_csv.py (uses tabula-py package)
-- run utils/read_housing_csv.py -> creates csv file located in
-/data/treb_home_price_reference_master/TREB_Home_Price_Reference_2012Feb_2016Oct.csv
-- Analysis notebook toronot-house-prices.ipynb is run referencing csv files in data folder
-- scraping and csv generation do not need to be run but are provided for reference
-- dataset references are provided in toronto_house_price_study.pdf
+- first run utils/convert_housing_pdf_csv.py (uses tabula-py package)
+- then run utils/read_housing_csv.py -> creates csv file located in /data/treb_home_price_reference_master/TREB_Home_Price_Reference_2012Feb_2016Oct.csv
+- Analysis notebook toronto-house-prices.ipynb is run referencing csv files in data folder
+- web scraping and pdf->csv generation do not need to be run but source files are provided in /data for reference and utils scripts are provided in /utils
+- sources of data in /data are provided in toronto_house_price_study.pdf
 
 ### 3) Model uses Prophet package (fbprophet)
 - requires first pystan installed and configured

@@ -1,7 +1,7 @@
 # toronto-house-prices
 A preliminary data driven study on Toronto house prices
 
-1) install requirements.txt for packages used in the study
+1) Install requirements.txt for packages used in the study
 
 2) Toronto Real Estate Board Home Price data is extracted from pdf from Feb 2012 to Oct 2020
 

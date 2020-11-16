@@ -1,0 +1,6 @@
+numpy
+pandas
+beautifulsoup4
+tabula-py
+fbprophet
+pystan

@@ -14,7 +14,7 @@ To extract home price data from pdfs:
 /data/treb_home_price_reference_master/TREB_Home_Price_Reference_2012Feb_2016Oct.csv
 - Analysis notebook toronot-house-prices.ipynb is run referencing csv files in data folder
 - scraping and csv generation do not need to be run but are provided for reference
-- dataset references are provided in Toronto House Price Study.pdf
+- dataset references are provided in toronto_house_price_study.pdf
 
 ### 3) Model uses Prophet package (fbprophet)
 - requires first pystan installed and configured
